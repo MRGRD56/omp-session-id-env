@@ -1,0 +1,26 @@
+{
+	"name": "omp-session-id-env",
+	"version": "0.1.0",
+	"description": "OMP extension that keeps the current session id in an environment variable for request headers",
+	"license": "MIT",
+	"type": "module",
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/MRGRD56/omp-session-id-env.git"
+	},
+	"keywords": [
+		"omp",
+		"extension",
+		"session"
+	],
+	"files": [
+		"src",
+		"README.md",
+		"LICENSE"
+	],
+	"omp": {
+		"extensions": [
+			"./src/index.ts"
+		]
+	}
+}
